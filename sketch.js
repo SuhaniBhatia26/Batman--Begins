@@ -22,7 +22,7 @@ function setup(){
     engine = Engine.create();
     world = engine.world;
 
-    createCanvas(400,700);
+    createCanvas(700,700);
     umbrella = new Umbrella(200,500);
     if(frameCount % 150 === 0){
 
